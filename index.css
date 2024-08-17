@@ -1,0 +1,40 @@
+
+html{
+    background: linear-gradient(to right, blue,green,yellow);
+}
+
+
+#tx,#tx0{
+    color:rgb(3, 3, 3);
+    margin-top: 100px;
+    font-family: impact;
+    font-size: 75px;
+    text-shadow: -18px -6px 12px rgb(251, 255, 252);
+  
+}
+#tx3{
+    width: 600px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(236, 7, 7);
+}
+.lb{
+animation :zoom;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+ }
+ @keyframes zoom{
+    0%{
+        font-size: 80px;
+    
+    }
+    50%{
+        font-size: 200px;
+    }
+    100%{
+        font-size: 80px;color:red;
+    }
+ }

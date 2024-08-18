@@ -1,12 +1,15 @@
 
 html{
-    background-image: image("C:\\Users\\Utilisateur\\Desktop\\first\\img\\AdobeStock_210639467_Preview.jpeg");
+    background-image:url(desert.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
 
 #tx{
-    font-size: 800px;
+    font-size: 200px;
     font-family: Impact;
     color: rgb(2, 58, 2);
     font-size: bolder;
@@ -20,15 +23,3 @@ html{
     text-align: center;
 }
 
-#bt{
-    font-size: 100px;
-    color: rgb(2, 58, 2);
-    width: 500px;
-    height: 600px;
-    margin: 100px;
-}
-#im{
-    width: 500px;
-    height: 600px;
-
-}

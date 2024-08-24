@@ -1,0 +1,19 @@
+#tx{
+    color: rgb(140, 233, 27);
+    font-size: 150px;
+    font-weight: bolder;
+    text-shadow: -15px -3px 12px rgb(224, 238, 67);
+    animation: rot;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rot{
+    100%{transform: rotateY(360deg);}
+}
+#b{
+    background-color: black;
+}
+#im{
+    width: 150px;
+    height:150px;
+}
